@@ -1,11 +1,3 @@
-if game.PlaceId ~= 13438553315 and game.PlaceId ~= 13438553315 then
-    return
-end
-
-repeat wait() until game.Players.LocalPlayer ~= nil
-
-
-
 local namecall
 local newindex
 local DamageTypes = {"burning","bleed","toxicated","sepsis"}
