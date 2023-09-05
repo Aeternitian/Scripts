@@ -1,5 +1,5 @@
-     UserInputService.InputBegan:Connect(function(input, Typing)
-    if Typing then
+ UserInputService.InputBegan:Connect(function(input, Typing)
+  if Typing then
         return
     end
 	if input.KeyCode == Enum.KeyCode.V then
@@ -9,6 +9,3 @@
             workspace.ServerStuff.dropAmmo:FireServer("Ammo", "Long")
               workspace.ServerStuff.dropAmmo:FireServer("Ammo", "Small")
             wait(0.1)
-        end
-    end
-end)
